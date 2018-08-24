@@ -865,7 +865,7 @@ namespace GACShip
 
         public static void SearchAcknowledgementRequiredJob()
         {
-            Excel excel = new Excel(@"C:\Users\edqu01\Documents\GAC Automation\ConsoleApp1\ConsoleApp1\TestData\GACShipTestData.xlsx", "TestData");
+            Excel excel = new Excel(@"C:\Users\DTH6HD2\.jenkins\workspace\Build SLN\ConsoleApp1\TestData\GACShipTestData.xlsx", "TestData");
             GACShip_Agent_LandingPage landingPage = new GACShip_Agent_LandingPage();
             //landingPage.MenuSearchTextField.SendKeys(excel.ReadDatabyColumnName("GACShip", "AcknowledgementRequiredJob"));
             SetActions.FillInTextField(landingPage.MenuSearchTextField, excel.ReadDatabyColumnName("GACShip", "AcknowledgementRequiredJob"));
