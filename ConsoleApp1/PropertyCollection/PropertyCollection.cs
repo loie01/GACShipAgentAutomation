@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MainTest
+namespace GACShip
 {
     //Strongly Typed Parameters
     public enum PropertyName

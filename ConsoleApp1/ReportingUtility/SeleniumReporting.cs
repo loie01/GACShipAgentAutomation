@@ -1,6 +1,6 @@
 ﻿using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
-using MainTest;
+//using MainTest;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using System;
@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserActions;
+//using UserActions;
 
 
-namespace ReportingUtility
+namespace GACShip
 {
     public class SeleniumReporting
     {

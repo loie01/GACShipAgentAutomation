@@ -8,7 +8,7 @@ using _Excel = Microsoft.Office.Interop.Excel;
 using Microsoft.Office.Interop;
 
 
-namespace ExcelUtilities
+namespace GACShip
 {
     class Excel
     {
