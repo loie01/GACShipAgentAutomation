@@ -43,7 +43,7 @@ namespace GACShip
 
             PropertyCollection.ExtentTest = PropertyCollection.ExtentReports.CreateTest(TestContext.CurrentContext.Test.Name);
             PropertyCollection.ChildTest = PropertyCollection.ExtentTest.CreateNode(GetActions.GetMyMethodName());
-            Excel excel = new Excel(@"C:\Users\edqu01\Documents\GAC Automation\GACShip Agent Automation - August-31\ConsoleApp1\TestData\GACShipTestData.xlsx", "LogIn");
+            Excel excel = new Excel(@"C:\Users\DTH6HD2\.jenkins\workspace\Build SLN\ConsoleApp1\TestData\GACShipTestData.xlsx", "LogIn");
             System.Threading.Thread.Sleep(2000);
             PropertyCollection.Driver = new ChromeDriver();
             PropertyCollection.Driver.Navigate().GoToUrl(excel.ReadDatabyColumnName("GACShip", "GACShipURL"));

@@ -69,7 +69,7 @@ namespace GACShip
         public GACShip_Agent_LandingPage GACShipLogin()
         {
             GACShip_Agent_LoginPage loginPage = new GACShip_Agent_LoginPage();
-            Excel excel = new Excel(@"C:\Users\edqu01\Documents\GAC Automation\GACShip Agent Automation - August-31\ConsoleApp1\TestData\GACShipTestData.xlsx", "LogIn");
+            Excel excel = new Excel(@"C:\Users\DTH6HD2\.jenkins\workspace\Build SLN\ConsoleApp1\TestData\GACShipTestData.xlsx", "LogIn");
             PropertyCollection.ChildTest = PropertyCollection.ExtentTest.CreateNode(GetActions.GetMyMethodName());
 
             //Checks first if element is present then type in the Username
